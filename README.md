@@ -1,4 +1,5 @@
 # CS1XA3 - Project 03 shahpura
+Note: You may notice that these images contain many test Users. This is because it was never deployed to production!
 ## Home View
 ![Home View](./NewsFeedView.png)
 ## Account View

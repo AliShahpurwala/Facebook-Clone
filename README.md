@@ -4,7 +4,7 @@
 ## Account View
 ![Account View](./accountView.png)
 ## Find New People View
-![New People View](./discoverNewPeople.png)
+![New People View](./dicoverNewPeople.png)
 ## Creating a Virtual Environment
 To use this project, you're first going to need to create a *django* environment. I did my project on my local machine through powershell using vitualenv, therefor I'll be explaining how to create this virtual ennvironment on Windows Powershell. First, inside your repository you must run:
 ```

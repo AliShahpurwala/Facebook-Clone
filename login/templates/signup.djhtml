@@ -1,0 +1,16 @@
+{% extends 'base.djhtml' %}
+
+{% block title %}Signup Page{% endblock %}
+
+{% block middle_column %}
+    <!-- TODO Objective 1: implement signup form -->
+    <p>Your password must contain a number, be greater than or equal to 8 characters and must not contain a space character.</p>
+    <form method="POST">
+    	{% csrf_token %}
+    	Username: <input type="text" name="givenUsername">
+    	<p></p>
+    	Password: <input type="password" name="givenPassword">
+    	<p></p>
+    	<button type="submit">Sign Up</button>
+    </form>
+{% endblock %}
